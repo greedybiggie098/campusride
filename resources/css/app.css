@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.campusride-logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.65rem;
+	color: #0F5132;
+	text-decoration: none;
+}
+
+.campusride-logo-mark {
+	width: 2.8rem;
+	height: 2.8rem;
+	flex: 0 0 auto;
+}
+
+.campusride-wordmark {
+	display: inline-flex;
+	flex-direction: column;
+	line-height: 1;
+}
+
+.campusride-name {
+	color: #0F5132;
+	font-size: 1.25rem;
+	font-weight: 800;
+	letter-spacing: -0.02em;
+}
+
+.campusride-name span { color: #198754; }
+
+.campusride-tagline {
+	color: #6C757D;
+	font-size: 0.48rem;
+	font-weight: 800;
+	letter-spacing: 0.23em;
+	margin-top: 0.32rem;
+}
